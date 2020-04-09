@@ -1,0 +1,76 @@
+.create-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.create-container .content {
+  width: 100%;
+  padding: 96px;
+  background: #F8F8FF;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-container .content span {
+  color: #737380;
+}
+
+.create-container .content span button {
+  margin: 10px;
+  width: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
+}
+
+.create-container .content span button:hover {
+  border-color: #999;
+}
+
+.create-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.create-container .content section h1 {
+  margin: 64px 0 32px;
+  font-size: 40px;
+  color: #DAA520
+}
+
+.create-container .content section p {
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
+}
+
+.create-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.create-container .content form input {
+  margin-top: 8px;
+}
+
+.create-container .content form .input-group {
+  display: flex;
+}
+
+.create-container .content form .input-group input + input {
+  margin-left: 8px;
+}
