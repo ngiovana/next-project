@@ -32,3 +32,9 @@ O <b>Next Project</b> foi criado com o propósito de organizar projetos e ativid
 - Edição e exclusão do projeto
 - Visualização, cadastro, edição e exclusão de atividades
 - Logout
+
+### Acesso
+
+A aplicação está disponível [neste link](https://nextprojectchallenge.herokuapp.com/)
+
+Também pode ser acessada rodando `npm start` tanto no diretório `backend` quanto `frontend` podendo assim ser visualizada em `http://localhost:3000/`
